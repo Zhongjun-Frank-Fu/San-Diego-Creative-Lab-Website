@@ -173,7 +173,7 @@ export default function HomePage() {
             {/* Info Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
               {[
-                { icon: 'calendar_month', label: 'Date', value: 'June 28, 2025', sub: 'Saturday', color: 'primary' },
+                { icon: 'calendar_month', label: 'Date', value: 'March 31, 2026', sub: 'Tuesday', color: 'primary' },
                 { icon: 'schedule', label: 'Time', value: '1:00 PM - 4:00 PM', sub: 'Pacific Time (PT)', color: 'secondary' },
                 { icon: 'location_on', label: 'Location', value: 'San Diego, CA', sub: 'Venue TBA', color: 'tertiary' },
                 { icon: 'group', label: 'Team Size', value: '1 - 4 People', sub: 'Solo or Squad', color: 'amber-400' },
@@ -318,7 +318,7 @@ export default function HomePage() {
 
                   <span className="flex items-center gap-2 text-on-surface-variant/50 font-mono text-xs uppercase tracking-widest">
                     <span className="material-symbols-outlined text-sm">schedule</span>
-                    Available June 28, 2025
+                    Available March 31, 2026
                   </span>
                 </div>
               </div>
@@ -528,7 +528,7 @@ export default function HomePage() {
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#FF5F3B]" />
               </span>
               <span className="font-mono text-xs tracking-widest uppercase text-on-surface-variant">
-                Registration closes June 25 &bull; Limited to 100 participants
+                Registration closes March 28 &bull; Limited to 100 participants
               </span>
             </div>
           </div>
