@@ -57,12 +57,12 @@ const projects = [
 ]
 
 const connectivity = [
-  { icon: 'terminal', title: 'Devpost', desc: 'Official hackathon portal and project submissions.', hoverBorder: 'hover:border-primary/40', iconBg: 'bg-primary/10', iconColor: 'text-primary', linkColor: 'text-primary', label: 'Connect Node' },
-  { icon: 'database', title: 'Notion', desc: 'Documentation, schedules, and team coordination.', hoverBorder: 'hover:border-secondary/40', iconBg: 'bg-secondary/10', iconColor: 'text-secondary', linkColor: 'text-secondary', label: 'Access Docs' },
-  { icon: 'code', title: 'TRAE IDE', desc: 'The core development environment for vibe coding.', hoverBorder: 'hover:border-amber-400/40', iconBg: 'bg-amber-400/10', iconColor: 'text-amber-400', linkColor: 'text-amber-400', label: 'Download Tool' },
-  { icon: 'api', title: 'Z.ai API', desc: 'Global Language Model 5 documentation and keys.', hoverBorder: 'hover:border-emerald-400/40', iconBg: 'bg-emerald-400/10', iconColor: 'text-emerald-400', linkColor: 'text-emerald-400', label: 'Fetch Schema' },
-  { icon: 'account_tree', title: 'GitHub', desc: 'Open source repositories and template engines.', hoverBorder: 'hover:border-blue-400/40', iconBg: 'bg-blue-400/10', iconColor: 'text-blue-400', linkColor: 'text-blue-400', label: 'Clone Repo' },
-  { icon: 'rocket_launch', title: 'Quick Start', desc: 'Go from 0 to 1 in under five minutes.', hoverBorder: 'hover:border-red-400/40', iconBg: 'bg-red-400/10', iconColor: 'text-red-400', linkColor: 'text-red-400', label: 'Execute Setup' },
+  { icon: 'terminal', title: 'Devpost', desc: 'Official hackathon portal and project submissions.', hoverBorder: 'hover:border-primary/40', iconBg: 'bg-primary/10', iconColor: 'text-primary', linkColor: 'text-primary', label: 'Submit Project', href: 'https://creative-lab-ai-coding-ucsd.devpost.com/' },
+  { icon: 'database', title: 'Notion', desc: 'Quick Start Guide — everything you need to get started.', hoverBorder: 'hover:border-secondary/40', iconBg: 'bg-secondary/10', iconColor: 'text-secondary', linkColor: 'text-secondary', label: 'Access Docs', href: 'https://www.notion.so/Build-with-TRAE-x-Z-ai-San-Diego-Quick-Start-Guide-831d69a3552e82fab53881e8a4b9dc4e' },
+  { icon: 'code', title: 'TRAE IDE', desc: 'The core development environment for vibe coding.', hoverBorder: 'hover:border-amber-400/40', iconBg: 'bg-amber-400/10', iconColor: 'text-amber-400', linkColor: 'text-amber-400', label: 'Download Tool', href: 'https://www.trae.ai' },
+  { icon: 'api', title: 'Z.ai API', desc: 'GLM model documentation and API reference.', hoverBorder: 'hover:border-emerald-400/40', iconBg: 'bg-emerald-400/10', iconColor: 'text-emerald-400', linkColor: 'text-emerald-400', label: 'Fetch Schema', href: 'https://docs.z.ai/api-reference/llm/chat-completion' },
+  { icon: 'account_tree', title: 'GitHub', desc: 'Inspiration repo with templates and starter projects.', hoverBorder: 'hover:border-blue-400/40', iconBg: 'bg-blue-400/10', iconColor: 'text-blue-400', linkColor: 'text-blue-400', label: 'Clone Repo', href: 'https://github.com/Zhongjun-Frank-Fu/San-Diego-Creative-Lab-Inspiration-Repo' },
+  { icon: 'rocket_launch', title: 'Quick Start', desc: 'Go from 0 to 1 in under five minutes.', hoverBorder: 'hover:border-red-400/40', iconBg: 'bg-red-400/10', iconColor: 'text-red-400', linkColor: 'text-red-400', label: 'Get Started', href: 'https://www.notion.so/Build-with-TRAE-x-Z-ai-San-Diego-Quick-Start-Guide-831d69a3552e82fab53881e8a4b9dc4e' },
 ]
 
 export default function HomePage() {
@@ -415,7 +415,9 @@ export default function HomePage() {
             {connectivity.map((r) => (
               <a
                 key={r.title}
-                href="#"
+                href={r.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`group p-6 rounded-2xl glass-panel border border-outline-variant/10 ${r.hoverBorder} transition-all`}
               >
                 <div className="flex items-center gap-4 mb-4">
