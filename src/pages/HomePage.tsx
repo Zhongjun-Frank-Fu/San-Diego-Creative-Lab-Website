@@ -165,8 +165,8 @@ export default function HomePage() {
                 What is BUILD_SD?
               </h2>
               <p className="text-on-surface-variant text-lg md:text-xl font-light max-w-3xl mx-auto leading-relaxed">
-                BUILD_SD is a 3-hour AI hackathon powered by TRAE IDE and Z.ai, hosted in San Diego.
-                Teams of 1-4 builders will ship real products from scratch using the latest AI-assisted development tools.
+                Creative Lab is a full-day AI hackathon powered by TRAE IDE and Z.ai, hosted by UCSD CSSA in San Diego.
+                Teams of 1-4 builders will ship real products from scratch using cutting-edge AI-assisted development tools.
               </p>
             </div>
 
@@ -174,8 +174,8 @@ export default function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
               {[
                 { icon: 'calendar_month', label: 'Date', value: 'March 31, 2026', sub: 'Tuesday', color: 'primary' },
-                { icon: 'schedule', label: 'Time', value: '1:00 PM - 4:00 PM', sub: 'Pacific Time (PT)', color: 'secondary' },
-                { icon: 'location_on', label: 'Location', value: 'San Diego, CA', sub: 'Venue TBA', color: 'tertiary' },
+                { icon: 'schedule', label: 'Time', value: '1:00 PM - 8:30 PM', sub: 'Pacific Time (PT)', color: 'secondary' },
+                { icon: 'location_on', label: 'Location', value: 'UCSD, San Diego', sub: 'Venue TBA', color: 'tertiary' },
                 { icon: 'group', label: 'Team Size', value: '1 - 4 People', sub: 'Solo or Squad', color: 'amber-400' },
               ].map((item) => (
                 <div
@@ -199,7 +199,7 @@ export default function HomePage() {
                 {
                   icon: 'auto_awesome',
                   title: 'AI-First Development',
-                  desc: 'Use TRAE IDE with Z.ai to write code at 10x speed. From idea to working prototype in 3 hours.',
+                  desc: 'Use TRAE IDE with Z.ai to write code at 10x speed. From idea to working prototype in 3.5 hours.',
                   color: 'primary',
                 },
                 {
@@ -236,18 +236,19 @@ export default function HomePage() {
               <h3 className="text-2xl font-headline font-bold text-center mb-12 tracking-tight">Event Timeline</h3>
               <div className="max-w-2xl mx-auto space-y-0">
                 {[
-                  { time: '1:00 PM', event: 'Doors Open & Check-in', desc: 'Grab your badge, meet your team, settle in.' },
-                  { time: '1:15 PM', event: 'Opening Keynote', desc: 'Intro to TRAE IDE, Z.ai API, and the theme reveal.' },
-                  { time: '1:30 PM', event: 'Hacking Begins', desc: '3 hours on the clock. Build something incredible.' },
-                  { time: '3:30 PM', event: 'Submissions Due', desc: 'Push your code, record a demo, submit on Devpost.' },
-                  { time: '3:45 PM', event: 'Demos & Judging', desc: 'Top teams present. Judges deliberate.' },
-                  { time: '4:00 PM', event: 'Awards & Wrap-up', desc: 'Winners announced. Networking continues.' },
+                  { time: '1:00 PM', event: 'Doors Open & Check-in', desc: 'Grab your badge, get your API Key, and set up your environment.' },
+                  { time: '1:30 PM', event: 'Guest Speaker & Keynote', desc: 'Inspiring talks from industry leaders and community builders.' },
+                  { time: '2:30 PM', event: 'TRAE & Z.ai Product Demo', desc: 'Live demo of the tools you\'ll be building with today.' },
+                  { time: '3:00 PM', event: 'Creative Lab — Coding Begins', desc: '3.5 hours of Vibe Coding. Build something incredible with AI.' },
+                  { time: '6:30 PM', event: 'Lightning Demos', desc: 'Teams showcase their projects in rapid-fire presentations.' },
+                  { time: '7:10 PM', event: 'Judging & Awards', desc: 'Judges deliberate. Winners announced and celebrated.' },
+                  { time: '8:00 PM', event: 'Networking & Wrap-up', desc: 'Connect, share feedback, take photos, and celebrate.' },
                 ].map((item, i) => (
                   <div key={i} className="flex gap-6 group">
                     {/* Timeline line */}
                     <div className="flex flex-col items-center">
                       <div className="w-3 h-3 rounded-full bg-primary-container border-2 border-primary shrink-0 mt-1.5 group-hover:scale-125 transition-transform" />
-                      {i < 5 && <div className="w-px flex-1 bg-outline-variant/30 min-h-[40px]" />}
+                      {i < 6 && <div className="w-px flex-1 bg-outline-variant/30 min-h-[40px]" />}
                     </div>
                     {/* Content */}
                     <div className="pb-8">
@@ -528,7 +529,7 @@ export default function HomePage() {
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#FF5F3B]" />
               </span>
               <span className="font-mono text-xs tracking-widest uppercase text-on-surface-variant">
-                Registration closes March 28 &bull; Limited to 100 participants
+                Registration closes March 29 &bull; Limited to 100 participants
               </span>
             </div>
           </div>
