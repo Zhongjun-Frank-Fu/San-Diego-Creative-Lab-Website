@@ -1,4 +1,3 @@
-import ApiKeyModal from '@/components/shared/ApiKeyModal'
 
 const HERO_IMAGE = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCD_3m08Ff7f9sqo3lVpiM80xlllH0-iTlBkERZtIkQqci_cBoZA5DUjcZSoD1Q7XxKhz-EjEUc7jDFWtA5_wWZn4etwDDGGtdIIL8-6QQZ4H-NFW20L4A3DXkt1cjYb2wxWKHUyaiNe0pE1R5JZLrjzZcAtKiAd0aKnm3NF9bsJt-11NHLYCFOV8hK57np11WQpEqS_yqLoZwII2B42kBJwnAEX7yqk3hBTd6csLqtywUOSzAwSJaHpq8JA7lCdXQQ7Hjsy-FJTzvg'
 
@@ -593,8 +592,6 @@ export default function HomePage() {
         </div>
       </footer>
 
-      {/* API Key Modal */}
-      <ApiKeyModal />
     </div>
   )
 }
