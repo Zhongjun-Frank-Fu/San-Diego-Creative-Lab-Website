@@ -456,7 +456,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {/* Discord Card */}
             <a
-              href="https://discord.gg/YOUR_INVITE_CODE"
+              href="https://discord.gg/UTgKw4wRN"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-10 rounded-2xl border border-[#5865F2]/30 hover:border-[#5865F2]/60 transition-all duration-500 overflow-hidden block"
@@ -490,7 +490,7 @@ export default function HomePage() {
 
             {/* Luma Registration Card */}
             <a
-              href="https://lu.ma/YOUR_EVENT_ID"
+              href="https://lu.ma/c803h31l"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-10 rounded-2xl border border-[#FF5F3B]/30 hover:border-[#FF5F3B]/60 transition-all duration-500 overflow-hidden block"
@@ -547,7 +547,7 @@ export default function HomePage() {
             </div>
             <div className="flex gap-4 shrink-0">
               <a
-                href="https://discord.gg/YOUR_INVITE_CODE"
+                href="https://discord.gg/UTgKw4wRN"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 rounded-xl bg-[#5865F2] text-white font-headline font-bold text-sm hover:bg-[#4752C4] transition-colors inline-flex items-center gap-2"
@@ -558,7 +558,7 @@ export default function HomePage() {
                 Discord
               </a>
               <a
-                href="https://lu.ma/YOUR_EVENT_ID"
+                href="https://lu.ma/c803h31l"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 rounded-xl bg-[#FF5F3B] text-white font-headline font-bold text-sm hover:bg-[#E5543A] transition-colors inline-flex items-center gap-2"
